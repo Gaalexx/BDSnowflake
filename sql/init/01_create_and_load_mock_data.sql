@@ -601,5 +601,3 @@ COPY mock_data_raw (
 )
 FROM '/import/MOCK_DATA (9).csv'
 WITH (FORMAT csv, HEADER true);
-
-SELECT COUNT(*) AS imported_rows FROM mock_data_raw;
